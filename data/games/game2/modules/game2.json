@@ -1,0 +1,22 @@
+{
+  "id": "game2",
+  "title": "Counter-Strike2",
+  "description": "Counter-Strike2是一款风靡全球的fps游戏。",
+  "modules": [
+    
+    {
+      "id": "weapon",
+      "title": "武器介绍",
+      "thumbnail": "assets/img/game1/poster1.jpg",
+      "description": "Counter-Strike2的武器系统非常完善，每种枪械都有其独特的功能和效果，熟悉游戏中的各种武器有利于您更好的理解游戏，便于在对局中创造优势。",
+      "link": "module.html?game=game2&module=weapon"
+    },
+    {
+      "id": "map",
+      "title": "地图详解",
+      "thumbnail": "assets/img/game1/poster2.jpg",
+      "description": "为了让您更好的体验游戏，我们将讲解不同地图的地形和特色，帮助您快速形成控图的意识和思路。",
+      "link": "module.html?game=game2&module=map"
+    }
+  ]
+}
