@@ -54,7 +54,7 @@ data/
 {
   "id": "game1",
   "title": "王者荣耀",
-  "description": "当下最热门的手游之一",
+  "description": "当下最热门的MOBA手游之一",
   "modules": [
     {
       "id": "guide",

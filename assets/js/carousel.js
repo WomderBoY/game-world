@@ -93,7 +93,7 @@ class Carousel {
                 if (descElement) {
                     // 根据游戏ID设置不同的描述
                     const descriptions = {
-                        'game1': '当下最热门的手游之一',
+                        'game1': '当下最热门的MOBA手游之一',
                         'game3': '踏上提瓦特大陆的冒险',
                         'game-studies': '探索游戏与社会科学的关系'
                     };
