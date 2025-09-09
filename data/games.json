@@ -7,6 +7,13 @@
   },
   
   {
+    "id": "game2",
+    "title": "Counter-Strike2",
+    "image": "assets/img/cs2-poster.jpg",
+    "link": "game.html?id=game2"
+  },
+  
+  {
     "id": "game3",
     "title": "原神",
     "image": "assets/img/原神海报1.jpeg",

@@ -119,7 +119,9 @@ class GameLoader {
             'tips': '💡',
             'weapons': '🗡️',
             'elements': '⚡',
-            'events': '🎉'
+            'events': '🎉',
+            'weapon': '🔫',
+            'map': '🗺️'
         };
         
         const icon = moduleIcons[module.id] || '🎮';

@@ -453,7 +453,9 @@ class ModuleLoader {
             'tips': '💡',
             'weapons': '🗡️',
             'elements': '⚡',
-            'events': '🎉'
+            'events': '🎉',
+            'weapon': '🔫',
+            'map': '🗺️'
         };
 
         return iconMap[this.moduleId] || '🎮';

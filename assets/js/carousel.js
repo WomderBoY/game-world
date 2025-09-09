@@ -94,6 +94,7 @@ class Carousel {
                     // 根据游戏ID设置不同的描述
                     const descriptions = {
                         'game1': '当下最热门的MOBA手游之一',
+                        'game2': '风靡全球的FPS竞技游戏',
                         'game3': '踏上提瓦特大陆的冒险',
                         'game-studies': '探索游戏与社会科学的关系'
                     };

@@ -38,7 +38,7 @@ class Utils {
 
     // 验证游戏ID是否有效
     static isValidGameId(gameId) {
-        const validGameIds = ['game1', 'game3'];
+        const validGameIds = ['game1', 'game2', 'game3'];
         return validGameIds.includes(gameId);
     }
 
@@ -47,7 +47,7 @@ class Utils {
         const validModuleIds = [
             'guide', 'beginner-guide', 'characters', 'heros', 'strategy', 'esports',
             'world', 'items', 'quests', 'tips',
-            'weapons', 'elements', 'events'
+            'weapons', 'elements', 'events', 'weapon', 'map'
         ];
         return validModuleIds.includes(moduleId);
     }
