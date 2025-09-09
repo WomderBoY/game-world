@@ -1,0 +1,80 @@
+{
+  "id": "characters",
+  "title": "角色介绍",
+  "description": "原神全角色技能与背景介绍",
+  "content": [
+    {
+      "type": "text",
+      "title": "角色分类",
+      "content": "原神中的角色按照元素属性分为：火元素、水元素、雷元素、冰元素、风元素、岩元素、草元素。每个角色都有独特的技能组合和战斗风格。"
+    },
+    {
+      "type": "character-list",
+      "title": "主要角色介绍",
+      "characters": [
+        {
+          "name": "旅行者（空/荧）",
+          "element": "风/岩/雷/草",
+          "rarity": "5星",
+          "description": "游戏的主角，可以切换不同元素属性，是玩家在提瓦特大陆的化身。",
+          "skills": "普通攻击、元素战技、元素爆发"
+        },
+        {
+          "name": "安柏",
+          "element": "火",
+          "rarity": "4星",
+          "description": "蒙德城的侦察骑士，擅长使用弓箭和火元素攻击。",
+          "skills": "神射手、爆弹玩偶、箭雨"
+        },
+        {
+          "name": "凯亚",
+          "element": "冰",
+          "rarity": "4星",
+          "description": "蒙德城的骑兵队长，使用单手剑和冰元素技能。",
+          "skills": "霜袭、凛冽轮舞、寒冰之棱"
+        },
+        {
+          "name": "丽莎",
+          "element": "雷",
+          "rarity": "4星",
+          "description": "蒙德城的图书管理员，精通雷元素魔法。",
+          "skills": "苍雷、蔷薇的雷光、雷电的蔷薇"
+        },
+        {
+          "name": "琴",
+          "element": "风",
+          "rarity": "5星",
+          "description": "蒙德城的代理团长，使用单手剑和风元素技能。",
+          "skills": "西风剑术、风压剑、蒲公英之风"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "角色培养",
+      "content": "角色培养包括等级提升、天赋升级、武器强化、圣遗物配置等方面。合理分配资源，重点培养主力角色，是提升战斗力的关键。"
+    },
+    {
+      "type": "text",
+      "title": "队伍搭配",
+      "content": "合理的队伍搭配需要考虑元素反应、角色定位、技能冷却等因素。建议组建包含主C、副C、辅助、治疗等不同定位的队伍。"
+    },
+    {
+      "type": "text",
+      "title": "获取方式",
+      "content": "角色主要通过祈愿系统获得，分为常驻祈愿和限时祈愿。新手玩家可以通过完成新手任务获得初始角色，建议合理规划原石使用。"
+    }
+  ],
+  "images": [
+    {
+      "src": "assets/img/game3/characters1.jpg",
+      "alt": "角色展示",
+      "caption": "原神角色图鉴"
+    },
+    {
+      "src": "assets/img/game3/characters2.jpg",
+      "alt": "队伍配置",
+      "caption": "队伍搭配界面"
+    }
+  ]
+}

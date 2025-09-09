@@ -1,0 +1,22 @@
+[
+  {
+    "id": "game1",
+    "title": "王者荣耀",
+    "image": "assets/img/王者荣耀.jpg",
+    "link": "game.html?id=game1"
+  },
+  
+  {
+    "id": "game3",
+    "title": "原神",
+    "image": "assets/img/carousel/placeholder3.jpg",
+    "link": "game.html?id=game3"
+  },
+  
+  {
+    "id": "game-studies",
+    "title": "游戏学研究",
+    "image": "assets/img/游戏研究.jpg",
+    "link": "game-studies.html"
+  }
+]

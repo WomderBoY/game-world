@@ -1,0 +1,22 @@
+{
+  "id": "game1",
+  "title": "王者荣耀",
+  "description": "当下最热门的手游之一",
+  "modules": [
+    
+    {
+      "id": "heros",
+      "title": "英雄介绍",
+      "thumbnail": "assets/img/game1/poster1.jpg",
+      "description": "王者荣耀的每个英雄都有其独特的背景故事，精彩纷呈。我们从每个职业中挑选了一个英雄并附上了他们的独特攻略，让我们一起来看看吧！",
+      "link": "module.html?game=game1&module=heros"
+    },
+    {
+      "id": "strategy",
+      "title": "战术攻略",
+      "thumbnail": "assets/img/game1/poster2.jpg",
+      "description": "为了让您更好的体验游戏，我们提供更加详细的攻略，帮助您在游戏中快速上手！",
+      "link": "module.html?game=game1&module=strategy"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "game3",
+  "title": "原神",
+  "description": "踏上提瓦特大陆的冒险",
+  "modules": [
+    {
+      "id": "beginner-guide",
+      "title": "新手指南",
+      "thumbnail": "assets/img/modules/genshin_beginner.jpg",
+      "description": "新手入门攻略与基础操作",
+      "link": "module.html?game=game3&module=beginner-guide"
+    },
+    {
+      "id": "characters",
+      "title": "角色介绍",
+      "thumbnail": "assets/img/modules/genshin_characters.jpg",
+      "description": "全角色技能与背景介绍",
+      "link": "module.html?game=game3&module=characters"
+    }
+  ]
+}

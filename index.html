@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏天地</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>游戏天地</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="game.html?id=game1" class="nav-link">王者荣耀</a>
+                <a href="game.html?id=game3" class="nav-link">原神</a>
+                <a href="game-studies.html" class="nav-link">游戏学研究</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 轮播图区域 -->
+        <section class="carousel-section">
+            <div class="carousel-container">
+                <!-- 左箭头 -->
+                <button class="carousel-arrow prev" aria-label="上一张">
+                    <span>&#8249;</span>
+                </button>
+                
+                <!-- 右箭头 -->
+                <button class="carousel-arrow next" aria-label="下一张">
+                    <span>&#8250;</span>
+                </button>
+                
+                <div class="carousel-slides" id="carousel-slides">
+                    <div class="slide active" data-game-id="game1">
+                        <img src="assets/img/carousel/placeholder1.jpg" alt="游戏1" class="slide-image">
+                        <div class="slide-content">
+                            <h2>王者荣耀</h2>
+                            <p>当下最热门的手游之一</p>
+                        </div>
+                    </div>
+                    <div class="slide" data-game-id="game-studies">
+                        <img src="assets/img/游戏研究.jpg" alt="游戏研究" class="slide-image">
+                        <div class="slide-content">
+                            <h2>游戏学研究</h2>
+                            <p>探索游戏与社会科学的关系</p>
+                        </div>
+                    </div>
+                    <div class="slide" data-game-id="game3">
+                        <img src="assets/img/carousel/placeholder3.jpg" alt="游戏3" class="slide-image">
+                        <div class="slide-content">
+                            <h2>原神</h2>
+                            <p>踏上提瓦特大陆的冒险</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 游戏天地. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/carousel.js"></script>
+</body>
+</html>

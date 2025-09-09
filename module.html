@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模块详情 - 游戏天地</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>游戏天地</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="game.html?id=game1" class="nav-link">王者荣耀</a>
+                <a href="game.html?id=game3" class="nav-link">原神</a>
+                <a href="game-studies.html" class="nav-link">游戏学研究</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 面包屑导航 -->
+    <div class="breadcrumb-container">
+        <div class="breadcrumb" id="breadcrumb">
+            <a href="index.html" class="breadcrumb-link">首页</a>
+            <span class="breadcrumb-separator">></span>
+            <a href="#" class="breadcrumb-link" id="game-breadcrumb">游戏名称</a>
+            <span class="breadcrumb-separator">></span>
+            <span class="breadcrumb-current" id="module-title">模块名称</span>
+        </div>
+    </div>
+
+    <!-- 次级导航栏 -->
+    <div class="sub-nav-container">
+        <div class="sub-nav" id="sub-nav">
+            <!-- 同一游戏的所有模块链接将在这里动态生成 -->
+        </div>
+    </div>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 模块标题区域 -->
+        <section class="module-header">
+            <div class="module-header-content">
+                <h1 id="module-name">模块名称</h1>
+                <p id="module-description">模块描述</p>
+            </div>
+        </section>
+
+        <!-- 模块内容区域 -->
+        <section class="module-content-section">
+            <div class="module-content-container">
+                <div class="content-layout" id="content-layout">
+                    <!-- 模块详细内容将在这里动态生成 -->
+                    <div class="content-text">
+                        <h2>内容标题</h2>
+                        <p>这里是模块的详细内容...</p>
+                    </div>
+                    <div class="content-image">
+                        <div class="placeholder-image">图片占位</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 游戏天地. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/loadModule.js"></script>
+</body>
+</html>
