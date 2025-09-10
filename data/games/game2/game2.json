@@ -7,14 +7,14 @@
     {
       "id": "weapon",
       "title": "武器介绍",
-      "thumbnail": "assets/img/game1/poster1.jpg",
+      "thumbnail": "assets/img/game2/weapon.jpg",
       "description": "Counter-Strike2的武器系统非常完善，每种枪械都有其独特的功能和效果，熟悉游戏中的各种武器有利于您更好的理解游戏，便于在对局中创造优势。",
       "link": "module.html?game=game2&module=weapon"
     },
     {
       "id": "idea",
       "title": "战术讲解",
-      "thumbnail": "assets/img/game1/poster2.jpg",
+      "thumbnail": "assets/img/game2/fight.jpg",
       "description": "为了让您更好的体验游戏，我们将讲解游戏中的策略和战术，帮助您快速形成意识和思路。",
       "link": "module.html?game=game2&module=idea"
     }
