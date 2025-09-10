@@ -4,7 +4,8 @@ const fs = require('fs');
 const path = require('path');
 
 const server = http.createServer((req, res) => {
-    let filePath = '.' + req.url;
+    // 解码URL编码的文件名
+    let filePath = '.' + decodeURIComponent(req.url);
     if (filePath === './') {
         filePath = './index.html';
     }
@@ -16,7 +17,8 @@ const server = http.createServer((req, res) => {
         '.css': 'text/css',
         '.json': 'application/json',
         '.png': 'image/png',
-        '.jpg': 'image/jpg',
+        '.jpg': 'image/jpeg',
+        '.jpeg': 'image/jpeg',
         '.gif': 'image/gif',
         '.svg': 'image/svg+xml',
         '.wav': 'audio/wav',
