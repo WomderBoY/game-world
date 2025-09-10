@@ -47,7 +47,7 @@ class Utils {
         const validModuleIds = [
             'guide', 'beginner-guide', 'characters', 'heros', 'strategy', 'esports',
             'world', 'items', 'quests', 'tips',
-            'weapons', 'elements', 'events', 'weapon', 'map'
+            'weapons', 'elements', 'events', 'weapon', 'idea'
         ];
         return validModuleIds.includes(moduleId);
     }
