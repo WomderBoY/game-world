@@ -455,12 +455,10 @@
         min-height: 44px;
     }
     
-    .dot {
-        min-width: 44px;
-        min-height: 44px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    /* 轮播图dot在触摸设备上增加点击区域 */
+    .dot::before {
+        width: 32px;
+        height: 32px;
     }
 }
 

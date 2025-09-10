@@ -141,6 +141,8 @@
     background-color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
     transition: background-color 0.3s;
+    /* 确保点击区域足够大 */
+    position: relative;
 }
 
 .dot.active {
@@ -149,6 +151,19 @@
 
 .dot:hover {
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* 为dot增加更大的点击区域，但不影响视觉效果 */
+.dot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    z-index: -1;
 }
 
 /* 响应式设计 */
